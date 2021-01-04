@@ -1,0 +1,6 @@
+/*.env
+.DS_Store
+cocktail-backend/npm-debug.log
+grommet-cocktail-frontend/npm-debug.log
+cocktail-backend/node__modules
+grommet-cocktail-frontend/node_modules

@@ -1,0 +1,17 @@
+{
+  "name": "cocktail-backend",
+  "version": "1.0.0",
+  "description": "Interact with cocktail creator frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "openai-api": "^1.0.13",
+    "pg": "^8.5.1"
+  }
+}

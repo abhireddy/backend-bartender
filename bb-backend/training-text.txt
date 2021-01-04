@@ -1,0 +1,24 @@
+A customer asks an expert bartender for a drink at a fancy bar. Here are some examples from the PDT Cocktail Book.
+
+Request: a very strong drink with absinthe
+Cocktail: Vieux Pontarlier Absinthe, .75 oz. Plymouth Gin, .75 oz. Cointreau, .75 oz. Lillet Blanc, .75 oz. Lemon Juice. Shake with ice and strain into a chilled Vieux Pontarlier Absinthe-rinsed coupe. No garnish.
+
+Request: a drink with tequila and fruit juice
+Cocktail: 1.5 oz. Partida Blanco Tequila, 1 oz. Watermelon Juice, .75 oz. House Grenadine, .5 oz. Lime Juice, 4 drops Marivani Rose Flower Water, 1 oz. Club Soda. Shake with ice and strain into a chilled Collins glass filled with ice. Top with 1 oz. Club Soda. No garnish.
+
+Request: a simple cocktail with whiskey.
+Cocktail: 2 oz. Wild Turkey Rye Whiskey, 1 Cube Demerara Sugar, 2 dashes Angostura Bitters. Muddle, stir with ice, and strain over one large cube into a chilled rocks glass. Garnish with a lemon twist.
+
+Request: something with scotch
+Cocktail: 2 oz. Compass Box Peat Monster Blended Malt Scotch Whisky, .5 oz. Carpano Antica Sweet Vermouth, .5 oz. Dolin Dry Vermouth, 1 dash Angostura Bitters, 1 dash House Orange Bitters. Stir with ice and strain into a chilled coupe. Garnish with a flamed orange twist.
+
+Request: a strong drink with mezcal and tequila
+Cocktail: Del Maguey Vida Mezcal, 1.5 oz. José Cuervo Platino Tequila, .75 oz. Grapefruit Juice, .5 oz. Martini Bianco Vermouth, .5 oz. St. Germain Elderflower Liqueur. Shake with ice and strain into a chilled, Del Maguey Vida Mezcal-rinsed coupe. Garnish with a grapefruit twist.
+
+Request: a strong, bitter drink with Irish whiskey.
+Cocktail: St. George Absinthe, 2 oz. Black Bush Irish Whiskey, 1 oz. Dolin Dry Vermouth, 2 dashes Angostura Bitters. Stir with ice and strain into a chilled, St. George Absinthe-rinsed coupe. Garnish with a lemon twist.
+
+Request: something spicy with beer
+Cocktail: 1 oz. Sombra Mezcal, .75 oz. Lime Juice, 1 dash The Bitter Truth Celery Bitters, 4 dashes Cholula Hot Sauce, 6 oz. Victory Pilsner. Stir with ice and strain into a chilled Collins glass rimmed with kosher salt, celery salt, and ground black pepper. Top with 6 oz. Victory Pilsner and garnish with freshly grated orange and lime zest.
+
+Request:

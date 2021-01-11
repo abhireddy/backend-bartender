@@ -222,6 +222,7 @@ function App() {
             <TextArea
               resize={false}
               focusIndicator={true}
+              maxLength={200}
               placeholder='Example: "a rum cocktail with fruit juice"'
               onChange={handleInput}
             />
@@ -240,7 +241,7 @@ function App() {
          />
          <Footer flex alignSelf='center' margin={{ top: 'xlarge' }} gap='xsmall'>
             <Paragraph size='small'>Built by Abhi Reddy</Paragraph>
-             <Button href='https://github.com/abhireddy/' target='_blank'><Github /></Button>
+             <Button href='https://github.com/abhireddy/backend-bartender' target='_blank'><Github /></Button>
              <Button href='https://medium.com/swlh/gpt-3-invented-cocktails-you-might-actually-want-to-try-e42783a58195' target='_blank'><Medium /></Button>
          </Footer>
       </Box>

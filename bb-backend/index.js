@@ -48,9 +48,33 @@ const getGptResponse = async (req) => {
 
   const output = gptResponse.data['choices'][0]['text'];
 
-  return new Promise(function(resolve, reject) {
-    resolve(output);
-  });
+  // check if the output is safe using GPT-3 content filter
+  const outputPrompt = "<|endoftext|>[" + output + "]\n--\nLabel:";
+  const gptFilter = await openai.complete({
+      engine: 'content-filter-alpha-c4',
+      prompt: outputPrompt,
+      maxTokens: 1,
+      temperature: 0,
+      topP: 1,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      best_of: 1,
+      n: 1,
+      stream: false,
+      stop: ['\n']
+    });
+
+  const filterResult = gptFilter.data['choices'][0]['text'];
+
+  if (filterResult == '2') {
+    return new Promise(function(resolve, reject) {
+      resolve("Try another suggestion.");
+    });
+  } else {
+    return new Promise(function(resolve, reject) {
+      resolve(output);
+    });
+  }
 }
 
 // log recommendation in database
